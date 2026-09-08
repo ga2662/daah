@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Ghaliah Al Mansoori"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a very interesting individual."
+  bio    : "I'm a very interesting individual!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
