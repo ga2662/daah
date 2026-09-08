@@ -10,6 +10,6 @@ main:
   - title: "Assignment 1"
     url: /assignment1/
   - title: "Assignment 2"
-   url: /assignment2/
+    url: /assignment2/
   - title: "Assignment 3"
-   url: /assignment3/
+    url: /assignment3/
