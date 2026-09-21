@@ -1,6 +1,6 @@
 ---
-title: "Schedule S26"
-permalink: /schedule/
+title: "Digital Narrative"
+permalink: /digital-narrative/
 author_profile: false
 ---
 
