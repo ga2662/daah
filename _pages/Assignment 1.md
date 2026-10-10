@@ -1,10 +1,11 @@
+
 ---
 title: "Assignment 1 - Science Fiction Explorer"
 permalink: /assignment1/
 layout: single
 ---
 
-## INTRODUCTION
+**## INTRODUCTION**
 
 When my partner and I think of science fiction, we usually imagine space, aliens, and futuristic technology. But we started wondering whether science fiction is really about the future or if these imaginary worlds reflect problems that already exist in our own world, like fear, power, destruction, and survival.
 
@@ -12,11 +13,11 @@ For this assignment, we used the Science Fiction Explorer notebook to analyze ar
 
 We were especially interested in the war and society categories because we thought they might reveal more about human behavior and control. We expected "fear" and "destruction" to appear frequently in war stories, while "survival" might be more common in space travel or Mars stories. However, our results were not always what we expected, especially when it came to the word "power."
 
-## What Surprised Us
+**## What Surprised Us**
 
 When we first started experimenting with the custom word frequency section, we chose five words: "cosmos," "desolation," "dystopia," "detonation," and "armistice." We thought these words would be interesting because they seemed connected to science fiction, especially the themes of space, war, and destruction in the 1880s–1990s and we actually got this list from ChatGPT. However, when we looked at the results, we realized that some of these words barely appeared, and "dystopia" did not appear at all. This surprised us because dystopian worlds are something we usually associate with science fiction. We realized that just because a theme is common in a genre doesn't mean the exact word describing it will appear in the stories.
 
-![Figure 1]({{ '/assets/images/figure1.png' | relative_url }})
+![Figure 1](/daah/assets/images/figure1.png)
 
 *Figure 1: Heatmap showing the frequency of our original five words across the science fiction categories.*
 
@@ -34,7 +35,7 @@ Looking at our relative frequency heatmap, the word that stood out the most was 
 
 Another thing we noticed was the difference between the raw word counts and relative frequencies. For example, "power" appeared 10,206 times in society stories, which was the highest raw count. However, when we accounted for the number of words in each category, space travel and war had higher relative frequencies. This showed us why looking at raw counts alone could be misleading.
 
-## How Does Language Change Over Time?
+**## How Does Language Change Over Time?**
 
 After looking at how often our words appeared across different categories, we wanted to see if the time period made a difference. We decided to compare two periods, 1880–1913 and 1900–1930, using the same five words. We chose these periods because we were interested in how World War I (1914–1918) might have influenced the language used in science fiction. The war introduced new forms of warfare and destruction, including tanks, chemical weapons, and more advanced military technology. We wondered whether experiencing such a major conflict might have changed how writers imagined the future, especially when it came to themes like fear, destruction, and power.
 
@@ -52,7 +53,7 @@ We also expected "fear" and "destruction" to become more common in the later per
 
 One limitation of our comparison is that the periods overlap between 1900 and 1913, so some stories could be included in both results. Also, the 1900–1930 selection includes stories published before, during, and after World War I. Because of this, we cannot confidently say that the war caused these differences. To explore this properly, we would need to compare separate periods before and after 1918.
 
-## TF-IDF
+**## TF-IDF**
 
 ![Figure 6]({{ '/assets/images/figure6.png' | relative_url }})
 
@@ -60,7 +61,7 @@ One limitation of our comparison is that the periods overlap between 1900 and 19
 
 When we analyzed the TF-IDF section of the notebook, we looked at the five main tags: space travel, war, society, action, and Mars. The graph displayed the top fifteen distinctive words per category based on their TF-IDF scores, and what we found was that many of these words were character names. Even after filtering out several names, more continued to appear. This section was not exactly as helpful, unlike the earlier frequency heatmaps, the TF-IDF graph focused on words that stood out compared to the other categories, rather than how frequently our chosen words appeared.
 
-## KWIC
+**## KWIC**
 
 ![Figure 7]({{ '/assets/images/figure7.png' | relative_url }})
 
@@ -74,7 +75,7 @@ After analyzing the TFIDF data results, we moved on to the keyword in context (K
 
 Some references were related to technology and energy, while others focused more on authority and human control. Unlike the earlier heatmaps, which only showed us how often certain words appeared, KWIC allowed us to look at the actual context in which they were being used.
 
-## What we learned and what we’d do differently
+**## What we learned and what we’d do differently**
 
 One thing we found useful about computational analysis was being able to compare so many stories at once. Reading all 1,000 texts individually would have been impossible in the time we had, and even if we could, it would have been difficult to notice patterns across so many different stories. The notebook made it easier to compare words across categories and see which ones appeared more frequently. Although, it was a little frustrating because our first word choices didn't give us the results we expected and we had to keep experimenting to find something useful. The words we choose can completely change what we notice about a collection of stories.
 
@@ -82,11 +83,11 @@ This also made us think about the risks of distant reading discussed by Ted Unde
 
 What we would do differently if given more advanced technical skills would definitely have to be expanding on the different time periods of the metadata and how they affected the data and its abundance. We would also want to investigate how the meanings of certain words changed over time. Since we found that the word “power” could refer to both technology and human authority, it would be interesting to see whether one meaning became more common than the other during certain periods.
 
-## Collaboration Statement
+**## Collaboration Statement**
 
 We both contributed to the research, analysis, and development of our essay. Aljazei focused on the introduction, frequency heatmaps, and comparisons between different time periods (Sections 1–3), while Ghaliah focused on analyzing the TF-IDF and KWIC results, as well as writing the final reflection and conclusion (Sections 4–6). We worked together to develop our research questions and interpret the overall findings.
 
-## AI Statement
+**## AI Statement**
 
 We used ChatGPT to help us brainstorm our initial list of words to analyze and to improve the clarity and structure of our writing. However, all the data analysis, interpretations, and conclusions were from the notebook.
 
