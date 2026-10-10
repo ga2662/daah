@@ -17,7 +17,7 @@ We were especially interested in the war and society categories because we thoug
 
 When we first started experimenting with the custom word frequency section, we chose five words: "cosmos," "desolation," "dystopia," "detonation," and "armistice." We thought these words would be interesting because they seemed connected to science fiction, especially the themes of space, war, and destruction in the 1880s–1990s and we actually got this list from ChatGPT. However, when we looked at the results, we realized that some of these words barely appeared, and "dystopia" did not appear at all. This surprised us because dystopian worlds are something we usually associate with science fiction. We realized that just because a theme is common in a genre doesn't mean the exact word describing it will appear in the stories.
 
-![Figure 1](/daah/assets/images/figure1.png)
+![Figure 1](/daah/assets/images/heatmap1.png)
 
 *Figure 1: Heatmap showing the frequency of our original five words across the science fiction categories.*
 
