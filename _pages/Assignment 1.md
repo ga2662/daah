@@ -1,5 +1,3 @@
-
-
 ---
 title: "Assignment 1 - Science Fiction Explorer"
 permalink: /assignment1/
