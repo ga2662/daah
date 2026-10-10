@@ -1,4 +1,5 @@
 
+
 ---
 title: "Assignment 1 - Science Fiction Explorer"
 permalink: /assignment1/
@@ -23,13 +24,13 @@ When we first started experimenting with the custom word frequency section, we c
 
 Because of this, we decided to change our words to "fear," "destruction," "survival," "power," and "humanity." We felt these words would give us a better understanding of the human struggles we were interested in exploring.
 
-![Figure 2]({{ '/assets/images/figure2.png' | relative_url }})
+![Figure 2](/daah/assets/images/heatmap2.png)
 
 *Figure 2: Heatmap showing the total number of appearances of our revised five words across each category.*
 
 Looking at our relative frequency heatmap, the word that stood out the most was "power." It had the highest relative frequency across all five categories, appearing around 0.60 times per 1,000 words in both space travel and war stories. We originally expected words like "fear" and "destruction" to be more common in war stories, so this was interesting to see. Fear was still relatively common, especially in Mars stories, where it appeared 0.29 times per 1,000 words. On the other hand, "survival" appeared surprisingly rarely, even in space travel stories, where we expected it to be more important.
 
-![Figure 3]({{ '/assets/images/figure3.png' | relative_url }})
+![Figure 3](/daah/assets/images/heatmap3.png)
 
 *Figure 3: Heatmap showing the relative frequency of our five words per 1,000 words.*
 
@@ -39,13 +40,13 @@ Another thing we noticed was the difference between the raw word counts and rela
 
 After looking at how often our words appeared across different categories, we wanted to see if the time period made a difference. We decided to compare two periods, 1880–1913 and 1900–1930, using the same five words. We chose these periods because we were interested in how World War I (1914–1918) might have influenced the language used in science fiction. The war introduced new forms of warfare and destruction, including tanks, chemical weapons, and more advanced military technology. We wondered whether experiencing such a major conflict might have changed how writers imagined the future, especially when it came to themes like fear, destruction, and power.
 
-![Figure 4]({{ '/assets/images/figure4.png' | relative_url }})
+![Figure 4](/daah/assets/images/heatmap4.png)
 
 *Figure 4: Heatmap showing the relative frequency of our five words between 1880 and 1913.*
 
 One of the biggest differences we noticed was the word "power." In space travel stories, its relative frequency was 0.22 per 1,000 words in the 1880–1913 selection, compared to 0.57 in the 1900–1930 selection. We noticed something similar in war stories, where it went from 0.32 to 0.51. This made us wonder whether World War I and the growing importance of technology influenced how science fiction writers thought about power. After all, the war showed how technological developments could be used for destruction and control. However, we couldn't tell from the heatmaps whether writers were actually discussing military or technological power or something different.
 
-![Figure 5]({{ '/assets/images/figure5.png' | relative_url }})
+![Figure 5](/daah/assets/images/heatmap5.png)
 
 *Figure 5: Heatmap showing the relative frequency of our five words between 1900 and 1930.*
 
@@ -55,7 +56,7 @@ One limitation of our comparison is that the periods overlap between 1900 and 19
 
 **## TF-IDF**
 
-![Figure 6]({{ '/assets/images/figure6.png' | relative_url }})
+![Figure 6](/daah/assets/images/heatmap6.png)
 
 *Figure 6: Bar graphs showing the top 15 most distinctive words in each category using TF-IDF.*
 
@@ -63,11 +64,11 @@ When we analyzed the TF-IDF section of the notebook, we looked at the five main 
 
 **## KWIC**
 
-![Figure 7]({{ '/assets/images/figure7.png' | relative_url }})
+![Figure 7](/daah/assets/images/heatmap7.png)
 
 *Figure 7: Our KWIC settings for searching the word "power" with ten surrounding words on each side.*
 
-![Figure 8]({{ '/assets/images/figure8.png' | relative_url }})
+![Figure 8](/daah/assets/images/heatmap8.png)
 
 *Figure 8: KWIC results displaying the word "power" within sentences from different science fiction texts.*
 
