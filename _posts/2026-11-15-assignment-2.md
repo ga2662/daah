@@ -15,7 +15,9 @@ Our main research question was: How does the diversity of occupations documented
 
 We began by examining Lorimer's Gazetteer to identify occupations documented across different geographical locations. We approached this process manually by reading geographical entries, using the search function to locate relevant terms, and examining screenshots of the original text. We used an LLM (ChatGPT) to help extract occupations from screenshots of the original text, but manually reviewed the results to verify the results and identify any contextual errors/inaccuracies. One of the prompts we used asked ChatGPT to identify the occupations mentioned in a paragraph and organize them into a table, with TRUE and FALSE values indicating whether each occupation was documented. We also used the following prompt to help organize geographical information. “Use this datasheet to find the latitude and longitude for the places we listed and extract the points into a list with three columns: place, latitude, and longitude.”
 
-Example of one entry)
+
+![Screenshot of Lorimer's Gazetteer]({{ '/assets/images/lorimer-screenshot.png' | relative_url }})
+(Example of one entry)
 
 One of the biggest challenges was collecting enough data because occupations were not always mentioned directly or consistently. Sometimes they appeared as specific professions, while other times they were included within broader descriptions of economic activities. This meant that we had to go through different sections of the text and connect the relevant occupation to a geographical location.
 
