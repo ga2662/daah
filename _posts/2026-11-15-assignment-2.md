@@ -2,16 +2,16 @@
 permalink: /assignment2/
 title: "Assignment 2"
 ---
-Mapping Occupational Diversity in Lorimer's Gazetteer of the Persian Gulf
+# Mapping Occupational Diversity in Lorimer's Gazetteer of the Persian Gulf
 
-Introduction
+## Introduction
 For our second Digital Humanities assignment, we decided to explore the geographical distribution of occupations displayed in J. G. Lorimer's Gazetteer of the Persian Gulf, Oman and Central Arabia. We were interested in understanding how different forms of work were represented across the region and whether specific locations had a greater variety of recorded occupations than others. Rather than focusing on one particular line of work, we wanted to analyze occupational diversity and see whether there were any geographical patterns that might not be immediately noticeable when reading the text itself.
 
 The reason behind our choosing of Lorimer's Gazetteer is because it contains detailed descriptions of settlements, communities, and economic activities across the Gulf and surrounding regions. However, much of this information is presented through written descriptions rather than a structured dataset, which makes it increasingly difficult to compare different locations in a straightforward way. By identifying occupations and connecting them to geographical coordinates, we wanted to see how historical information could be transformed into something that was easier to analyze and visualize.
 
 Our main research question was: How does the diversity of occupations documented in Lorimer's Gazetteer vary across different geographical locations in the Gulf region?
 
-Methodology and Data Collection
+## Methodology and Data Collection
 
 We began by examining Lorimer's Gazetteer to identify occupations documented across different geographical locations. We approached this process manually by reading geographical entries, using the search function to locate relevant terms, and examining screenshots of the original text. We used an LLM (ChatGPT) to help extract occupations from screenshots of the original text, but manually reviewed the results to verify the results and identify any contextual errors/inaccuracies. One of the prompts we used asked ChatGPT to identify the occupations mentioned in a paragraph and organize them into a table, with TRUE and FALSE values indicating whether each occupation was documented. We also used the following prompt to help organize geographical information. “Use this datasheet to find the latitude and longitude for the places we listed and extract the points into a list with three columns: place, latitude, and longitude.”
 
@@ -25,7 +25,7 @@ from J. G. Lorimer's Gazetteer of the Persian Gulf, Central Arabia and Oman (190
 
 Once we had organized the information, we prepared a CSV file containing the geographical coordinates and occupation counts so that we could import our dataset into Kepler.gl.
 
-Data Visualization
+## Data Visualization
 
 For our visualization, we decided to use Kepler.gl because it allowed us to explore our dataset through an interactive geographical map. We wanted to create something that would make differences in occupational diversity easier to understand compared to looking at the information in Excel.
 
@@ -45,7 +45,7 @@ However, we also had to consider how the visualization settings affected the way
 </iframe>
 
 
-Findings and Analysis
+## Findings and Analysis
 
 One of the first things we noticed when examining our dataset was that certain occupations appeared much more frequently than others. Fishing was the most commonly recorded occupation, appearing in 98 place records, followed by cultivation in 82 and pearl diving in 81. Date cultivation was also frequently documented, appearing in 63 records.
 
@@ -59,7 +59,7 @@ Our 3D map also showed differences in recorded occupational diversity across geo
 
 At the same time, we had to be careful about how we interpreted these patterns. A location with more recorded occupations does not necessarily mean that it had a more diverse economy than another location. It could also mean that Lorimer provided a more detailed description of that particular place. Because of this, we understood our findings as patterns in documented occupational diversity rather than a complete representation of economic activities across the region.
 
-Limitations and Reflection
+## Limitations and Reflection
 
 One of the main limitations of our project was the historical source itself. Lorimer's Gazetteer was not originally written to provide a complete dataset of occupations, which meant that the amount of information available varied between locations. Some settlements were described in considerable detail, while others had much shorter entries. This could affect the number of occupations we were able to identify and make comparisons between locations less straightforward.
 
@@ -67,13 +67,13 @@ Another limitation was the process of converting historical descriptions into Y 
 
 This experience also made me realize that digital humanities involves much more than simply using digital tools. The quality of a visualization depends heavily on how the information was collected, organized, and interpreted before it was uploaded. Even though the map was the most visually interesting part of our project, the research and data preparation were just as important.
 
-Conclusion
+## Conclusion
 
 Overall, this assignment allowed us to explore how occupational diversity was documented across the Gulf by transforming historical descriptions into structured data and an interactive map.
 
 More importantly, this project helped us understand that digital tools do not automatically make historical information complete or objective. The patterns we see depend on the original source, the decisions we make when collecting and organizing information, and the way we choose to visualize it. Through this assignment, I developed a better understanding of how digital humanities can make historical information more accessible while also encouraging us to question what the data actually represents.
 
-References
+## References
 
 Lorimer, J. G. Gazetteer of the Persian Gulf, Oman and Central Arabia.
 A Dataset of Place Names from J. G. Lorimer's Gazetteer of the Persian Gulf, Central Arabia and Oman (1908). Zenodo.
