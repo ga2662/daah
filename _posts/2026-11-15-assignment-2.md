@@ -5,7 +5,7 @@ title: "Assignment 2"
 # Mapping Occupational Diversity in Lorimer's Gazetteer of the Persian Gulf
 
 ## Introduction
-For our second Digital Humanities assignment, we decided to explore the geographical distribution of occupations displayed in J. G. Lorimer's Gazetteer of the Persian Gulf, Oman and Central Arabia. We were interested in understanding how different forms of work were represented across the region and whether specific locations had a greater variety of recorded occupations than others. Rather than focusing on one particular line of work, we wanted to analyze occupational diversity and see whether there were any geographical patterns that might not be immediately noticeable when reading the text itself.
+For our second Digital Humanities assignment, we decided to explore the geographical distribution of occupations displayed in J. G. [Lorimer's Gazetteer of the Persian Gulf, Oman and Central Arabia](https://drive.google.com/file/d/1pg-2MlWpdAkEhf-_9UDEs0Qvmlel0w6j/view?usp=sharing). We were interested in understanding how different forms of work were represented across the region and whether specific locations had a greater variety of recorded occupations than others. Rather than focusing on one particular line of work, we wanted to analyze occupational diversity and see whether there were any geographical patterns that might not be immediately noticeable when reading the text itself.
 
 The reason behind our choosing of Lorimer's Gazetteer is because it contains detailed descriptions of settlements, communities, and economic activities across the Gulf and surrounding regions. However, much of this information is presented through written descriptions rather than a structured dataset, which makes it increasingly difficult to compare different locations in a straightforward way. By identifying occupations and connecting them to geographical coordinates, we wanted to see how historical information could be transformed into something that was easier to analyze and visualize.
 
@@ -22,10 +22,9 @@ We began by examining Lorimer's Gazetteer to identify occupations documented acr
 One of the biggest challenges was collecting enough data because occupations were not always mentioned directly or consistently. Sometimes they appeared as specific professions, while other times they were included within broader descriptions of economic activities. This meant that we had to go through different sections of the text and connect the relevant occupation to a geographical location.
 
 After collecting the information, we organized everything into an Excel spreadsheet. Each row represented a geographical location, while the columns represented different occupations. We used Y and N values to indicate whether an occupation was documented in a particular location. This allowed us to organize information that was originally scattered throughout the text into a dataset that we could compare and analyze.
-Our main spreadsheet contained 261 place records and 84 occupation categories, with 646 positive occupation entries. We then used the spreadsheet to calculate the number of different occupations recorded at each location. Another challenge involved finding geographical coordinates for historical locations. Some place names were spelled differently from their modern equivalents, while others were difficult to locate using contemporary maps. To address this, we used the place name dataset provided by our professor, A Dataset of Place Names 
-from J. G. Lorimer's Gazetteer of the Persian Gulf, Central Arabia and Oman (1908). We also used GeoNames, the original Gazetteer, and OpenGulf to help identify and verify geographical locations.
+Our main spreadsheet contained 261 place records and 84 occupation categories, with 646 positive occupation entries. We then used the spreadsheet to calculate the number of different occupations recorded at each location. Another challenge involved finding geographical coordinates for historical locations. Some place names were spelled differently from their modern equivalents, while others were difficult to locate using contemporary maps. To address this, we used the place name dataset provided by our professor, [Professor's Place Name Dataset](https://zenodo.org/records/20122587) A Dataset of Place Names from J. G. Lorimer's Gazetteer of the Persian Gulf, Central Arabia and Oman (1908). We also used [GeoNames](https://www.geonames.org/), the original Gazetteer, and OpenGulf to help identify and verify geographical locations.
 
-Once we had organized the information, we prepared a CSV file containing the geographical coordinates and occupation counts so that we could import our dataset into Kepler.gl.
+Once we had organized the information, we prepared a CSV file containing the geographical coordinates and occupation counts so that we could import our dataset into [Kepler.gl](https://kepler.gl/)
 
 ## Data Visualization
 
@@ -78,8 +77,12 @@ More importantly, this project helped us understand that digital tools do not au
 ## References
 
 Lorimer, J. G. Gazetteer of the Persian Gulf, Oman and Central Arabia.
+
 A Dataset of Place Names from J. G. Lorimer's Gazetteer of the Persian Gulf, Central Arabia and Oman (1908). Zenodo.
-GeoNames. https://www.geonames.org/
-OpenGulf. https://opengulf.github.io/
-Kepler.gl. https://kepler.gl/
+
+GeoNames. (https://www.geonames.org/)
+
+OpenGulf. (https://opengulf.github.io/)
+
+Kepler.gl. (https://kepler.gl/)
 
